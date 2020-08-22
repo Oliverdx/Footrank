@@ -1,7 +1,7 @@
 import validateError from '../validade-errors/validate-errors';
 
 const TOKEN = '206118cb87914bb0a1d0b287c636a84a';
-const FOOTBALL_API = 'http://api.football-data.org/v2/';
+const FOOTBALL_API = '//api.football-data.org/v2/';
 
 const fechStandings = async (id: String) => {
 
