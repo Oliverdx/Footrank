@@ -9,10 +9,12 @@
     "lint": "eslint . --ext .tsx",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "next": "9.4.4",
+    "next-on-netlify": "^2.3.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.26.10"

@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb8db771-9359-4379-b33e-6ae2437974c6/deploy-status)](https://app.netlify.com/sites/footrank/deploys)
+
 # FOOTRANK
 
 App to show de competitions around the world using the [Football Data API](https://www.football-data.org/)
