@@ -36,6 +36,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 * [Typescript](https://www.typescriptlang.org/)
 * [Webpack](https://webpack.js.org/)
 
+## Fot the future
+
+[ ] Design improvements;
+[ ] Search by Championship name;
+[ ] List the available Championships;
+[ ] PWA.
 
 ## Author
 
