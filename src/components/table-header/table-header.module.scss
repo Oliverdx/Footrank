@@ -1,0 +1,14 @@
+@import '../../sass/mixins.scss';
+@import '../../sass/responsive.scss';
+
+.single__header {
+  @include columns__single;
+}
+
+.group__header {
+  @include columns__multiple;
+}
+
+
+
+@include centerColumn;

@@ -1,0 +1,27 @@
+@import '../../sass/responsive.scss';
+
+.standing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  height: calc(100vh - 140px);
+  margin: 0 auto;
+  position: relative;
+  top: 140px;
+  padding: 0px 15px 30px;
+  overflow-y: scroll;
+  background: #FFF;
+
+  @include smartphone-small{
+    width: 100%;
+  }
+}
+
+.standing__title{
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: center;
+}

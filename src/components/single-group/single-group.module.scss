@@ -1,0 +1,13 @@
+@import '../../sass/mixins.scss';
+@import '../../sass/responsive.scss';
+
+.standing_table{
+  width: 90%;
+  font-size: .4em;
+
+  @include smartphone-medium{
+    font-size: .6em;
+  }
+}
+
+@include standingBorder;

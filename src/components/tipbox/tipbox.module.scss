@@ -1,0 +1,49 @@
+@import '../../sass/responsive.scss';
+
+.tipbox_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  padding: 20px;   
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-250px, -200px);
+  border-radius: 10px;
+  background: #FFF;
+
+  h2{
+    font-size: 1em;
+  }
+
+  h3{
+    font-size: .8em;
+  }
+
+  h2, h3{
+    margin: 15px 0 10px;
+  }
+
+  p{
+    font-size: .4em;
+    line-height: 1.4em;
+
+    a{
+      text-decoration: none;
+      color: #008000;
+    }
+    @include smartphone-medium {
+      font-size: .6em;
+    }
+  }
+
+  @include smartphone-medium {
+    width: 350px;
+    height: 400px;
+    transform: translate(-175px, -150px);
+  }
+
+}

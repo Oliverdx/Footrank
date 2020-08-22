@@ -1,0 +1,33 @@
+{
+  "name": "footrank",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .tsx",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@svgr/webpack": "^5.4.0",
+    "@types/node": "^14.0.24",
+    "@types/react": "^16.9.43",
+    "babel-jest": "^26.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "jest": "^26.1.0",
+    "typescript": "^3.9.7"
+  }
+}

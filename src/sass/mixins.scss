@@ -1,0 +1,37 @@
+@import './responsive.scss';
+
+@mixin row{
+  display: grid;
+  align-items: center;
+  height: 50px;
+
+  @include tablet {
+    height: 35px;
+  }
+}
+
+@mixin columns__single{
+    @include row;
+    grid-template-columns: 50fr 250fr repeat(4, 80fr);
+}
+
+@mixin columns__multiple{
+  @include row;
+  grid-template-columns: 50fr 250fr repeat(4, 80fr);
+}
+
+@mixin centerColumn{
+  .text_center{
+    text-align: center;
+  }
+}
+
+@mixin standingBorder{
+  .standing_table{
+    border: 1px solid #555;
+
+    @include smartphone-medium{
+      margin-bottom: 15px;
+    }
+  }
+}

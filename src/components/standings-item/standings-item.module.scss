@@ -1,0 +1,8 @@
+@import '../../sass/mixins.scss';
+
+.standingsItem{
+  border-top: 1px solid #CCC;
+  @include columns__single;
+}
+
+@include centerColumn;

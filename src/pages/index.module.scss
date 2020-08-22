@@ -1,0 +1,41 @@
+@import '../sass/responsive.scss';
+
+.footrank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchrank_header{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+
+  .logo{
+    @include tablet{
+      height: 60px;
+    }
+
+    @include smartphone-medium{
+      height: 55px;
+    }
+  }
+
+  @include tablet{
+    height: 80px;
+  }
+
+  @include smartphone-medium{
+    flex-direction: column;
+    height: 140px;
+    padding: 15px 0;
+  }
+
+}
